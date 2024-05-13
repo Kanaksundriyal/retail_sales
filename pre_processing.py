@@ -11,7 +11,7 @@ def get_month_int(dframe, column):
     return year, month, day
 
 def read_and_preprocess_data():
-    df = pd.read_csv('./data/online_retail.csv')
+    df = pd.read_csv('./data/online_retail.zip')
     df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'], format="%d/%m/%Y %H:%M")
     df = df.dropna(subset=['CustomerID'])
     df = df.drop_duplicates()
