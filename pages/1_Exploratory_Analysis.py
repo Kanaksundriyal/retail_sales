@@ -2,7 +2,7 @@ import pandas as pd
 import plotly_express as px
 import streamlit as st
 
-df = pd.read_csv('./data/online_retail.csv')
+df = pd.read_csv('./data/online_retail.zip')
 df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'], format="%d/%m/%Y %H:%M")
 
 st.set_page_config(
