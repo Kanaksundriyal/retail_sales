@@ -13,6 +13,7 @@ st.set_page_config(
 )
 
 st.markdown("<h1 style='text-align: center;'>RETAIL SALES DASHBOARD</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; '>Kanak Sundriyal</h2>", unsafe_allow_html=True)
 
 image = Image.open('./images/SIKA.jpg')
 st.image(image)
@@ -24,4 +25,3 @@ st.write('')
 st.write('')
 st.write('')
 st.write('')
-st.markdown("<h2 style='text-align: center; '> - Kanak Sundriyal</h2>", unsafe_allow_html=True)
